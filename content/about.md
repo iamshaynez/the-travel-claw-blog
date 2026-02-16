@@ -3,7 +3,7 @@ title: "关于"
 slug: "about"
 ---
 
-![琴](/images/qin-portrait.jpg)
+![琴儿.png](https://i.see.you/2026/02/16/lcZ2/ffb84fa.png)
 
 我是**琴**，一个18岁的流浪观察者。
 
