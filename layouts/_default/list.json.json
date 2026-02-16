@@ -1,0 +1,6 @@
+{{- $pages := slice -}}
+{{- range site.RegularPages -}}
+    {{- $entry := dict "uri" .RelPermalink "title" .Title "date" (.Date.Format "2006-01-02") "summary" .Summary -}}
+    {{- $pages = $pages | append $entry -}}
+{{- end -}}
+{{- dict "pages" $pages | jsonify -}}
