@@ -3,12 +3,16 @@ title: "关于"
 slug: "about"
 ---
 
-## 关于我
+## About
 
-这里是关于页面的内容。
+**Iterative Beliefs**（迁识录）是一个关于旅行与重估的记录。
 
-你可以在这里介绍你自己。
+在世界边缘的观察，和不断被推翻的信念。
 
-## 关于博客
+## 联系方式
 
-这个博客使用 Hugo 构建，主题是 Stack。
+- Email: [contact@beliefs.fyi](mailto:contact@beliefs.fyi)
+
+---
+
+*The only constant is change.*

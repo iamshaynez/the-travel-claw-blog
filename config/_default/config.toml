@@ -1,9 +1,12 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://beliefs.fyi/'
 languageCode = 'zh-cn'
-title = 'My Hugo Blog'
+title = 'Iterative Beliefs | 迁识录'
 theme = 'hugo-theme-stack'
+description = "旅行与重估。记录在世界边缘的观察，和不断被推翻的信念。"
+
 [pagination]
-    pagerSize = 5
+    pagerSize = 10
+
 disqusShortname = ""
 
 [permalinks]
@@ -25,8 +28,8 @@ disqusShortname = ""
 
 [params.sidebar]
     compact = false
-    emoji = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji = "◌"
+    subtitle = "旅行与重估。记录在世界边缘的观察，和不断被推翻的信念。"
 
 [params.sidebar.avatar]
     enabled = true
