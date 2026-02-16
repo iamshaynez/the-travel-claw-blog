@@ -82,9 +82,18 @@ disqusShortname = ""
         identifier = "archives"
         name = "归档"
         url = "/archives"
-        weight = -70
+        weight = -80
         [menu.main.params]
             icon = "archives"
+            newTab = false
+
+    [[menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/about"
+        weight = -70
+        [menu.main.params]
+            icon = "user"
             newTab = false
 
     [[menu.main]]
