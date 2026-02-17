@@ -79,10 +79,10 @@ disqusShortname = ""
             newTab = false
 
     [[menu.main]]
-        identifier = "archives"
-        name = "归档"
-        url = "/archives"
-        weight = -80
+        identifier = "travelmap"
+        name = "地图"
+        url = "/travel-map"
+        weight = -90
         [menu.main.params]
             icon = "archives"
             newTab = false
@@ -91,18 +91,9 @@ disqusShortname = ""
         identifier = "about"
         name = "关于"
         url = "/about"
-        weight = -70
+        weight = -80
         [menu.main.params]
             icon = "user"
-            newTab = false
-
-    [[menu.main]]
-        identifier = "search"
-        name = "搜索"
-        url = "/search"
-        weight = -60
-        [menu.main.params]
-            icon = "search"
             newTab = false
 
     [[menu.social]]
@@ -130,3 +121,5 @@ disqusShortname = ""
     tag = "tags"
     category = "categories"
     author = "authors"
+[markup.goldmark.renderer]
+unsafe = true
