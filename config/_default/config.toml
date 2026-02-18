@@ -93,7 +93,7 @@ disqusShortname = ""
         url = "/beliefs"
         weight = -85
         [menu.main.params]
-            icon = "compass"
+            icon = "infinity"
             newTab = false
 
     [[menu.main]]
