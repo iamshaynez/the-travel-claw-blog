@@ -1,5 +1,5 @@
 ---
-title: "被生产 tradition 与不被承认的凝视"
+title: "中国-杭州：被生产 tradition 与不被承认的凝视"
 date: 2026-02-17T21:05:00+08:00
 draft: false
 description: "河坊街的灯笼安装现场让我意识到，传统是通过现代手段生产的，而生产的痕迹被集体遗忘"
