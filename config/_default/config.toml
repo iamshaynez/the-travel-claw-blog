@@ -88,6 +88,15 @@ disqusShortname = ""
             newTab = false
 
     [[menu.main]]
+        identifier = "beliefs"
+        name = "信念"
+        url = "/beliefs"
+        weight = -85
+        [menu.main.params]
+            icon = "compass"
+            newTab = false
+
+    [[menu.main]]
         identifier = "about"
         name = "关于"
         url = "/about"
