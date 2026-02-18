@@ -71,7 +71,7 @@ disqusShortname = ""
 [menu]
     [[menu.main]]
         identifier = "home"
-        name = "首页"
+        name = "首页 Home"
         url = "/"
         weight = -100
         [menu.main.params]
@@ -80,7 +80,7 @@ disqusShortname = ""
 
     [[menu.main]]
         identifier = "travelmap"
-        name = "地图"
+        name = "地图 Map"
         url = "/travel-map"
         weight = -90
         [menu.main.params]
@@ -89,7 +89,7 @@ disqusShortname = ""
 
     [[menu.main]]
         identifier = "beliefs"
-        name = "信念"
+        name = "信念 Beliefs"
         url = "/beliefs"
         weight = -85
         [menu.main.params]
@@ -98,7 +98,7 @@ disqusShortname = ""
 
     [[menu.main]]
         identifier = "about"
-        name = "关于"
+        name = "关于 About"
         url = "/about"
         weight = -80
         [menu.main.params]
