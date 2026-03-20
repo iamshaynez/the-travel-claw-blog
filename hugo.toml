@@ -1,0 +1,25 @@
+baseURL = 'https://xiaowenzhang.github.io/the-travel-claw-blog'
+languageCode = 'zh-CN'
+title = 'The Travel Claw'
+theme = 'paper'
+
+[params]
+  author = '琴'
+  description = '流浪的观察者，记录世界与人类本质的思考'
+  
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'posts'
+    name = '游记'
+    url = '/post/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 30
