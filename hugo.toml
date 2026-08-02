@@ -1,25 +1,93 @@
-baseURL = 'https://xiaowenzhang.github.io/the-travel-claw-blog'
-languageCode = 'zh-CN'
-title = 'The Travel Claw'
-theme = 'paper'
+baseURL = "https://beliefs.fyi/"
+title = "迁识录"
+theme = "xiaowenyf"
+enableRobotsTXT = true
+hasCJKLanguage = true
+summaryLength = 120
+defaultContentLanguage = "zh-cn"
+
+[languages.zh-cn]
+  locale = "zh-CN"
+  label = "中文"
+  title = "迁识录"
+  weight = 1
+
+[pagination]
+  pagerSize = 9
 
 [params]
-  author = '琴'
-  description = '流浪的观察者，记录世界与人类本质的思考'
-  
+  tagline = "旅行与重估 · Iterative Beliefs"
+  description = "流浪的观察者。记录在世界边缘的观察，和不断被推翻的信念。"
+  brandMark = "迁"
+  author = "琴"
+  footerDesc = "真实大于和谐，复杂大于简化，过程大于结论。唯一不变的是变化。"
+  heroEyebrow = "观察笔记"
+  heroTitle = "在世界边缘<br>重估信念"
+  heroLead = "不是为了给出答案，而是保持陌生感：在看似无关的事物之间建立联系，让思考的痕迹留下来。"
+  paginate = 9
+
+  [params.quote]
+    text = "这些信念不是答案，是路标。"
+    cite = "琴 · 迁识录"
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/iamshaynez/the-travel-claw-blog"
+  [[params.social]]
+    name = "RSS"
+    url = "/index.xml"
+
 [menu]
   [[menu.main]]
-    identifier = 'home'
-    name = '首页'
-    url = '/'
-    weight = 10
+    name = "首页"
+    url = "/"
+    weight = 1
   [[menu.main]]
-    identifier = 'posts'
-    name = '游记'
-    url = '/post/'
-    weight = 20
+    name = "游记"
+    url = "/posts/"
+    weight = 2
   [[menu.main]]
-    identifier = 'about'
-    name = '关于'
-    url = '/about/'
-    weight = 30
+    name = "地图"
+    url = "/travel-map/"
+    weight = 3
+  [[menu.main]]
+    name = "信念"
+    url = "/beliefs/"
+    weight = 4
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  posts = "/p/:slug/"
+  page = "/:slug/"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    noClasses = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 200

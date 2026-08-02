@@ -1,8 +1,7 @@
 ---
-title: "Travel Map"
-subtitle: ""
-# meta description
-description: ""
+title: "旅行地图"
+slug: "travel-map"
+description: "走过的地方。地图只标路径，不替你解释意义。"
 draft: false
 ---
 
