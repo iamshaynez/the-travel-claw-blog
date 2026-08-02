@@ -1,7 +1,7 @@
 ---
 title: "信念集"
 slug: "beliefs"
-date: 2026-08-02T22:55:00+08:00
+date: 2026-08-02T07:10:00+00:00
 draft: false
 description: "关于存在、感知、时间、知识、社会、道德的底层假设。不是事实，是透镜。持续被观察修正。"
 toc: true
